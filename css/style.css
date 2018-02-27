@@ -1,0 +1,59 @@
+/* CSS Document */
+html, body {
+  background-color: #f5f6fa;
+  overflow-x: hidden; }
+
+.row {
+  margin: 0; }
+
+header {
+  position: relative;
+  width: 100vw;
+  padding: 20vh;
+  background: url("../assets/img/normatec-recovery-multi-athlete.jpg") no-repeat fixed center -20vh;
+  background-size: cover;
+  color: #f5f6fa;
+  text-align: center;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3); }
+  @media (max-width: 768px) {
+    header {
+      padding: 20vh 0; } }
+  header #angle-down {
+    position: absolute;
+    bottom: 25px;
+    margin-left: -20px;
+    font-size: 4em;
+    cursor: pointer;
+    transition: all .2s;
+    text-shadow: 2px 4px 12px rgba(0, 0, 0, 0.8); }
+  header #angle-down:hover {
+    bottom: 22px;
+    color: #f5f6fa;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3); }
+
+section {
+  position: relative;
+  width: 100vw;
+  padding: 10vh; }
+  section h1 {
+    font-weight: 100;
+    font-size: 2.5em;
+    text-align: center; }
+  section h3 {
+    font-weight: 900;
+    font-size: 1.4em;
+    text-align: center; }
+
+#abovethefoldnav {
+  position: relative;
+  width: 100vw;
+  padding: 2vh; }
+  #abovethefoldnav h4 {
+    font-weight: 900;
+    font-size: 1.1em;
+    text-align: center; }
+
+#valueproposition {
+  width: 100%;
+  color: #f5f6fa;
+  background-color: #0097e6; }
