@@ -3,6 +3,7 @@
 html,body { background-color: #f5f6fa; overflow-x: hidden; }
 .row { margin:0; }
 img { width:100%;height:auto; }
+video { width:100%; }
 
 header {
 	position: relative;
@@ -102,6 +103,38 @@ section {
 	b { color:#00a8ff; }
 }
 
+#usevp {
+	width:100%;
+	color:#000;
+	background-color: #0097e6;
+	
+	.left {
+		text-align: right;
+	}
+	.middle {
+		text-align: center;
+	}
+	.right {
+		text-align:left;
+	}
+	
+	h2 {
+		font-weight: 900;
+		font-size:5.5em;
+		margin:0; padding:0;
+		margin-top:-10px;
+	}
+	
+	h3 {
+		font-weight: 900;
+		font-size:2em;
+		margin:0; padding:0;
+	}
+	
+	.row .col {
+		margin:0; padding:0;
+	}
+}
 
 
 

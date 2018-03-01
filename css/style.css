@@ -10,6 +10,9 @@ img {
   width: 100%;
   height: auto; }
 
+video {
+  width: 100%; }
+
 header {
   position: relative;
   width: 100vw;
@@ -91,3 +94,28 @@ section {
     color: #00a8ff; }
   #pulsepattern b {
     color: #00a8ff; }
+
+#usevp {
+  width: 100%;
+  color: #000;
+  background-color: #0097e6; }
+  #usevp .left {
+    text-align: right; }
+  #usevp .middle {
+    text-align: center; }
+  #usevp .right {
+    text-align: left; }
+  #usevp h2 {
+    font-weight: 900;
+    font-size: 5.5em;
+    margin: 0;
+    padding: 0;
+    margin-top: -10px; }
+  #usevp h3 {
+    font-weight: 900;
+    font-size: 2em;
+    margin: 0;
+    padding: 0; }
+  #usevp .row .col {
+    margin: 0;
+    padding: 0; }
