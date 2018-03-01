@@ -25,6 +25,8 @@ header {
   @media (max-width: 768px) {
     header {
       padding: 20vh 0; } }
+  header .angle-down-a {
+    color: #f5f6fa; }
   header #angle-down {
     position: absolute;
     bottom: 25px;
@@ -68,6 +70,8 @@ section {
     transition: all .2s; }
     #abovethefoldnav h4:hover {
       background-color: #40739e; }
+    #abovethefoldnav h4 a {
+      color: #f5f6fa; }
 
 #valueproposition {
   width: 100%;
@@ -159,3 +163,21 @@ section {
     font-weight: 200;
     font-size: 1.1em;
     list-style-type: disc; }
+
+.table-of-contents {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  text-align: right; }
+  .table-of-contents a {
+    padding-right: 20px;
+    transition: all .2s;
+    color: #f5f6fa;
+    background-color: #212121; }
+    .table-of-contents a:hover {
+      border-left: none;
+      border-right: 5px solid #487eb0; }
+
+.table-of-contents a.active {
+  border-left: none;
+  border-right: 5px solid #487eb0; }

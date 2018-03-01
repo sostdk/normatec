@@ -19,6 +19,7 @@ header {
 		padding:20vh 0;
 	}
 	
+	.angle-down-a { color:#f5f6fa; }
 	#angle-down {
 		position:absolute;
 		bottom:25px;
@@ -67,6 +68,8 @@ section {
 		margin:0;
 		transition: all .2s;
 		&:hover { background-color: #40739e; }
+		
+		a { color:#f5f6fa; }
 	}
 }
 
@@ -190,9 +193,28 @@ section {
 	}
 }
 
+.table-of-contents {
+	position:fixed;
+	bottom: 20px; right: 20px;
+	text-align: right;
+	
+	a {
+		padding-right: 20px;
+		transition: all .2s;
+		color:#f5f6fa;
+		background-color:#212121;
+		
+		&:hover {
+			border-left: none;
+			border-right: 5px solid #487eb0;
+		}
+	}
+}
 
-
-
+.table-of-contents a.active {
+	border-left:none;
+	border-right: 5px solid #487eb0;
+}
 
 
 
