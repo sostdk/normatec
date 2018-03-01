@@ -38,7 +38,7 @@ header {
 section {
 	position: relative;
 	width:100vw;
-	padding: 10vh 10vh 15vh 10vh;
+	padding: 12vh;
 	@media (max-width:768px) { padding: 10vh 5vh 15vh 5vh; }
 	
 	h1 {
@@ -136,14 +136,59 @@ section {
 	}
 }
 
+#producthero {
+	width:100%;
+	color:#f5f6fa;
+	background-color: #0097e6;
+	
+	h1 {
+		font-size: 5em;
+	}
+	h3 {
+		font-weight: 900;
+		font-size:1.4em;
+		text-align: center;
+	}
+	a {
+		color:#fff;
+		text-decoration: underline;
+	}
+}
 
+#product {
+	width:100%;
+	
+	.price {
+		font-weight: 900;
+		font-size: 3em;
+		line-height: 1.2em;
+		color:#212121;
+	
+		@media (max-width:1340px) {
+			font-size: 2.45em;
+			line-height: 1.6em;
+		}
+		@media (max-width:480px) {
+			font-size: 1.5em;
+			line-height: 2.5em;
+			margin-left:15px;
+		}
+	}
+}
 
-
-
-
-
-
-
+#productfeatures {
+	width:100%;
+	color:#f5f6fa;
+	background-color:#353b48;
+	
+	ul {
+		li {
+			font-weight: 200;
+			font-size: 1.1em;
+			list-style-type:disc;
+		}
+	}
+}
 
 
 
